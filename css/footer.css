@@ -15,12 +15,12 @@
 
   .footerSite .contentInfo{
       color: white;
-      padding-left: 50px;
+      padding-left: 100px;
       float: left;
   }
   .footerSite .contentInfoR{
     color: white;
-    padding-right: 50px;
+    padding-right: 100px;
     float: right;
 }
   
