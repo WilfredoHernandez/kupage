@@ -101,39 +101,29 @@
   <div class="footerContent">
       <p></p>
       <div class="contentInfo">
-        <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
+    <p>About Us</p>
+    <p>Student Reques Form</p>
+    <p><a href="index.php">Keiser University LAC Page</a></p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
+    <p>Youtube Channel</p>
+    <p>Facebook Page</p>
+    <p>Twitter Page</p>
+    <p>Instagram Page</p>
     </div>
 
     <div class="contentInfoR">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Keiser University</p>
+    <p>Gasolinera UNO 2c. al Sur</p>
+    <p>San Marcos, Carazo, Nicaragua</p>
+    <p>Phone: (505) 2278-6911 – (505) 2535-2314</p>
+    <p>Toll Free: 1 (800) 969- 1685</p>
     </div>
 
   </div>
