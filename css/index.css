@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto;
+    width: 100%;
+    margin: 0;
+}
+
+.body .covers{
+  left:0%;
+  height: 950px;
+  width: 100%;
+}
+  
+  .mainContent{
+    width: 100%;
+    height: 450px;
+    padding-left: 6%;
+    padding-top: 5%;
+
+  }
+
+  .contentF{
+    width: 30%;
+    float: left;
+    
+  }
+  .contentS{
+    float: left;
+    width: 30%;
+    padding-left: 40px;
+  }
+  .contentT{
+    float: left;
+    width: 30%;
+    padding-left: 40px;
+
+  }
+
+  .mainContent .title{
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 2px;
+  color: #092760;
+  font-family: Roboto Slab;
+  }
+
+  .mainContent p{
+    color: #666;
+    font: Roboto;
+  }
+
+  .mainContent{
+    width: 90%;
+    padding-left: 6%;
+    padding-top: 5%;
+
+  }
+
+  .body .secondary{
+    width: 100%;
+    height: 400px;
+
+  }
+
+  .secondaryContent{
+
+    width: 70%;
+    padding-left: 200px;
+  }
+
