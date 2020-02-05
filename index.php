@@ -31,7 +31,7 @@
             <li><a href="faculties/software.php">Software</a></li>
                 <li><a href="#">Psychology</a></li>
                 <li><a href="#">Business</a></li>
-                <li><a href="#">Management Information System</a></li>
+                <li><a href="#">Political Science</a></li>
             </ul>
         </li>
         <li>
