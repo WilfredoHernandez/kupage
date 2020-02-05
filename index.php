@@ -29,7 +29,7 @@
             
             <ul class="hidden">
             <li><a href="faculties/software.php">Software</a></li>
-                <li><a href="faculties/spsychology.php">Psychology</a></li>
+                <li><a href="faculties/psychology.php">Psychology</a></li>
                 <li><a href="faculties/business.php">Business</a></li>
                 <li><a href="faculties/politicalsci.php">Political Science</a></li>
             </ul>
