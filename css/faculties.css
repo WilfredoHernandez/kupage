@@ -111,4 +111,7 @@ hr:after {
     top: -13px;
 }
 
-
+.a {
+  color: white;
+  text-decoration: none;
+}
