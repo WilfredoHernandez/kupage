@@ -28,10 +28,10 @@
             <a href="#">Academics ￬</a>
             
             <ul class="hidden">
-                <li><a href="#">Software</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Management Information System</a></li>
-                <li><a href="#">Psychology</a></li>
+            <li><a href="software.php">Software</a></li>
+                <li><a href="psychology.php">Psychology</a></li>
+                <li><a href="business.php">Business</a></li>
+                <li><a href="politicalsci.php">Political Science</a></li>
             </ul>
         </li>
         <li>
