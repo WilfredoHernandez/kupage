@@ -28,10 +28,10 @@
             <a href="#">Academics ￬</a>
             
             <ul class="hidden">
-            <li><a href="faculties/software.php">Software</a></li>
-                <li><a href="#">Psychology</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Political Science</a></li>
+            <li><a href="../faculties/software.php">Software</a></li>
+                <li><a href="../faculties/psychology.php">Psychology</a></li>
+                <li><a href="../faculties/business.php">Business</a></li>
+                <li><a href="../faculties/politicalsci.php">Political Science</a></li>
             </ul>
         </li>
         <li>
@@ -44,7 +44,7 @@
         </li>
         <li><a href="#">News</a></li>
         <li><a href="#">Events & Conferences</a></li>
-        <li><a href="#">Youtube Channel</a></li>
+        <li><a href="#">Youtube Videos</a></li>
     </ul>
                 </div>
             </div>
@@ -54,7 +54,9 @@
 <!-- the body starts here -->
 
 <section class="videoContainer">
-
+    <div class="videoTitle">
+        <h1> Recent Videos</h1>
+    </div>
 </section>
 
 <!-- first container -->
