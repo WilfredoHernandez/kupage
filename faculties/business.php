@@ -54,10 +54,10 @@
 <!-- the body starts here -->
 
 <div class="covers">
-    <img  src="../images/Psychology.jpg" width="100%" height="600px"> 
+    <img  src="../images/business.jpg" width="100%" height="600px"> 
     <div class="filter">
     <div class="coverTitle" style>
-        <h1> Psychology </h1>
+        <h1> Business </h1>
     </div>
     </div>
 </div>
