@@ -29,7 +29,7 @@
             
             <ul class="hidden">
             <li><a href="faculties/software.php">Software</a></li>
-                <li><a href="faculties/spsychology.php">Psychology</a></li>
+                <li><a href="faculties/psychology.php">Psychology</a></li>
                 <li><a href="faculties/business.php">Business</a></li>
                 <li><a href="faculties/politicalsci.php">Political Science</a></li>
             </ul>
@@ -44,7 +44,7 @@
         </li>
         <li><a href="#">News</a></li>
         <li><a href="#">Events & Conferences</a></li>
-        <li><a href="youtube/youtubeVideos">Youtube Channel</a></li>
+        <li><a href="youtube/youtubeVideos.php">Youtube Videos</a></li>
     </ul>
                 </div>
             </div>
