@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 .covers{
   left:0%;
   height: 600px;
@@ -111,7 +115,4 @@ hr:after {
     top: -13px;
 }
 
-.a {
-  color: white;
-  text-decoration: none;
-}
+
