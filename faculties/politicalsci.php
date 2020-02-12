@@ -25,7 +25,7 @@
             <ul id="menu">
         <li><a href="../index.php">Home</a></li>
         <li>
-            <a href="#">Academics ￬</a>
+            <a href="#">Faculties ￬</a>
             
             <ul class="hidden">
             <li><a href="software.php">Software</a></li>
@@ -35,15 +35,17 @@
             </ul>
         </li>
         <li>
-            <a href="#">Research ￬</a>
+            <a href="#">Categories ￬</a>
             <ul class="hidden">
-                <li><a href="#">What are they doing?</a></li>
-                <li><a href="#">Sample text</a></li>
-                <li><a href="#">Sample text</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Testimonies</a></li>
+                <li><a href="#">Presentations</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Conferencies</a></li>
+                
             </ul>
         </li>
         <li><a href="#">News</a></li>
-        <li><a href="#">Events & Conferences</a></li>
         <li><a href="../youtube/youtubeVideos.php">Youtube Videos</a></li>
     </ul>
                 </div>
@@ -127,6 +129,7 @@
     <p>About Us</p>
     <p>Student Reques Form</p>
     <p><a href="index.php">Keiser University LAC Page</a></p>
+    <p><a href="#">Faculty Login</a></p>
     </div>
 
     <div class="contentInfo">
