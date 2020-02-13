@@ -128,8 +128,8 @@
         <p></p>
     <p>About Us</p>
     <p>Student Reques Form</p>
-    <p><a href="index.php">Keiser University LAC Page</a></p>
-    <p><a href="#">Faculty Login</a></p>
+    <p><a href="index.php" class="footerLinks">Keiser University LAC Page</a></p>
+    <p><a href="#" class="footerLinks">Faculty Login</a></p>
     </div>
 
     <div class="contentInfo">
