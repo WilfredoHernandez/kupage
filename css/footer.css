@@ -1,5 +1,4 @@
 
-
 .footerSite .footerContent{
     float: left;
     width: 100%;
@@ -33,4 +32,6 @@
     float: right;
 }
   
-
+.footerTags{
+  font-family: 'Source Serif Pro';
+}

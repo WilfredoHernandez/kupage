@@ -1,0 +1,94 @@
+body{
+    width:100%;
+    margin: 0;
+}
+
+.mainContainer{
+    width: 100%;
+    margin-top:11%;
+}
+
+.newsMain{
+    margin-left: 7%;
+    margin-top: 16%;
+    width:65%;
+}
+
+.newsMainTitle{
+    width: 100%;
+    height: 55px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 2px;
+    color: #092760;
+    font-family: 'Roboto Slab';
+  
+}
+
+.newsContent{
+    width: 100%;
+    height: 90%;
+}
+
+.individualNews{
+    width: 100%;
+    height: 300px;
+}
+
+.individualImage{
+    float: left;
+    width: 39%;
+    height: 91%;
+    margin-top: 20px;
+}
+
+.individualTitle{
+    float: left;
+    margin-top: 0px;
+    width: 50%;
+    padding-left: 35px;
+
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color: #092760;
+    font-family: Roboto Slab;
+    
+}
+
+.individualAbstract{
+    float: left;
+    padding-left: 35px;
+    width: 50%;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+    font-family: 'Crimson Text';
+    text-align: justify;
+    margin-top: 0;
+}
+
+.navIndex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+tr, td{
+    width: 25px;
+    text-align: center;
+    color: #e0a10d;
+    font-size: 18px;
+    font-family: 'Crimson Text';
+    margin-top: 3px;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color: #092760;
+}

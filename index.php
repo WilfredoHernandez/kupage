@@ -2,8 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Gentium+Basic|PT+Serif|Source+Serif+Pro&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/index.css">
@@ -25,7 +24,7 @@
             <ul id="menu">
         <li><a href="#">Home</a></li>
         <li>
-            <a href="#">Faculties ￬</a>
+            <a href="mainPages/facultyMain.php">Faculties ￬</a>
             
             <ul class="hidden">
             <li><a href="faculties/software.php">Software</a></li>
@@ -37,15 +36,12 @@
         <li>
             <a href="#">Categories ￬</a>
             <ul class="hidden">
-                <li><a href="#">Research</a></li>
+                <li><a href="mainPages/projectsMain.php">Projects</a></li>
                 <li><a href="#">Testimonies</a></li>
-                <li><a href="#">Presentations</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Conferencies</a></li>
-                
+                <li><a href="mainPages/conferencesMain.php">Conferences</a></li>
+                <li><a href="mainPages/newsMain.php">News</a></li>
             </ul>
         </li>
-        <li><a href="#">News</a></li>
         <li><a href="youtube/youtubeVideos.php">Youtube Videos</a></li>
     </ul>
                 </div>
@@ -68,7 +64,7 @@
         </div>
         <p></p>
         <img src="images/container1.jpg" width="100%" height="190px" >
-    <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>The KU Journal Project is a collaboration between students from Management Information Systems major and Software Engineering as well. This project has been done to improve and optimize administrative and user database, as well as developing in user interface and into a more informative website to showcase our latest projects an innovations made by the student on campus. Our team has divided into two groups, front-end and back-end.</p>
     </div>
     <div class="contentS">
     <div class="contentHeader">
@@ -89,7 +85,7 @@
 
 <!-- second container -->
 <div class="secondary">
-<br><br><br>
+<br><br><br><br><br>
   <div class="secondaryContent">
   <img src="images/example.jpg" width="100%" height="200px">
 </div>
@@ -107,32 +103,32 @@
 
     <div class="contentInfo">
         <p></p>
-    <p>About Us</p>
-    <p>Student Reques Form</p>
-    <p><a href="index.php">Keiser University LAC Page</a></p>
-    <p><a href="#">Faculty Login</a></p>
+    <p class="footerTags"><a href="#" class="footerLinks">About Us</a></p>
+    <p class="footerTags"><a href="#" class="footerLinks">Student Request Form</a></p>
+    <p class="footerTags"><a href="https://keiseruniversity.edu.ni/" class="footerLinks">Keiser University LAC Page</a></p>
+    <p class="footerTags"><a href="admin/faculty.php" class="footerLinks">Faculty Login</a></p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Youtube Channel</p>
-    <p>Facebook Page</p>
-    <p>Twitter Page</p>
-    <p>Instagram Page</p>
+    <p class="footerTags"><a href="https://www.youtube.com/channel/UCxT8MqsgtadIkKQaOo4D20Q" class="footerLinks">Youtube Channel<a></p>
+    <p class="footerTags">Facebook Page</p>
+    <p class="footerTags">Twitter Page</p>
+    <p class="footerTags">Instagram Page</p>
     </div>
 
     <div class="contentInfoR">
         <p></p>
-    <p>Gasolinera UNO 2c. al Sur</p>
-    <p>San Marcos, Carazo, Nicaragua</p>
-    <p>Phone: (505) 2278-6911 – (505) 2535-2314</p>
-    <p>Toll Free: 1 (800) 969- 1685</p>
+    <p class="footerTags">Gasolinera UNO 2c. al Sur</p>
+    <p class="footerTags">San Marcos, Carazo, Nicaragua</p>
+    <p class="footerTags">Phone: (505) 2278-6911 – (505) 2535-2314</p>
+    <p class="footerTags">Toll Free: 1 (800) 969- 1685</p>
     </div>
 
   </div>
   
   <div class="copyrightContent"> 
-      <p style="text-align:center; color: #999; font-family: Roboto;"> All rights reserved <span style="color:#f9b418">Keiser University Latin American Campus</span></p>
+  <p style="text-align:center; color: #999; font-family: Roboto;"> All rights reserved <span style="color:#f9b418">Keiser University Latin American Campus</span></p>
   </div>
 </footer>
 
