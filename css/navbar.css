@@ -1,13 +1,18 @@
- .navMenu {
+ body{
+   width: 100%;
+ }
+ 
+ 
+ body .navMenu {
     background-color:#092760;
     position: fixed;
     width: 100%;
     top: 0;
-    height: 22%;
+    height: 140px;
     display: block;
     transition: top 1.2s;
     left: 0%;
-    z-index: 1;
+    z-index: 5;
   }
 
   .navMenu .container{
@@ -19,6 +24,7 @@
     width: 90%;
     height: 60px;
     background-color: #ffb606;
+    
   }
   
   /* NavBar list style */
@@ -28,9 +34,7 @@ ul {
   list-style-type:none;
   margin:0;
   padding-top:3px;
-  padding-left: 5px;
   position: absolute;
-  text-transform: uppercase;
   
 }
 
@@ -42,8 +46,9 @@ li {
     margin-left: 6px;
     height: 100%;
     text-transform: uppercase;
-    font-family: 'Questrial', sans-serif;
+    
   }
+
   /*Style for menu links*/
   li a {
     display:block;
@@ -55,7 +60,7 @@ li {
     color: #333;
     background: transparent;
     text-decoration: none;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Source Serif Pro' ;
   }
   /*Hover state for top level links*/
   li:hover a {
@@ -67,6 +72,7 @@ li {
     color: #2f3036;
     height: 40px;
     line-height: 40px;
+    
   }
   /*Hover state for dropdown links*/
   li:hover ul a:hover {
@@ -90,24 +96,6 @@ li {
   }
   /*Display the dropdown on hover*/
   ul li a:hover + .hidden, .hidden:hover {
-    display: block;
-  }
-  /*Style 'show menu' label button and hide it by default*/
-  .show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: #fff;
-    background: #19c589;
-    text-align: center;
-    padding-top: 10px;
-    display: none;
-  }
-  /*Hide checkbox*/
-  input[type=checkbox]{
-    display: none;
-  }
-  /*Show menu when invisible checkbox is checked*/
-  input[type=checkbox]:checked ~ #menu{
     display: block;
   }
 

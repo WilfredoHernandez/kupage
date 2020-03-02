@@ -20,43 +20,98 @@
         <div class="container">
         <img  src="../images/logo.png" width="35%" height="60%">
         <br><br>
-            <div class="menu-sm">
+        <div class="menu-sm">
               
-            <ul id="menu">
-        <li><a href="../index.php">Home</a></li>
-        <li>
-            <a href="#">Academics ￬</a>
-            
-            <ul class="hidden">
-            <li><a href="../faculties/software.php">Software</a></li>
-                <li><a href="../faculties/psychology.php">Psychology</a></li>
-                <li><a href="../faculties/business.php">Business</a></li>
-                <li><a href="../faculties/politicalsci.php">Political Science</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">Research ￬</a>
-            <ul class="hidden">
-                <li><a href="#">What are they doing?</a></li>
-                <li><a href="#">Sample text</a></li>
-                <li><a href="#">Sample text</a></li>
-            </ul>
-        </li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Events & Conferences</a></li>
-        <li><a href="#">Youtube Videos</a></li>
-    </ul>
-                </div>
+              <ul id="menu">
+          <li><a href="../index.php">Home</a></li>
+          <li>
+              <a href="../mainPages/facultyMain.php">Faculties ￬</a>
+              
+              <ul class="hidden">
+              <li><a href="../faculties/software.php">Software</a></li>
+                  <li><a href="../faculties/psychology.php">Psychology</a></li>
+                  <li><a href="../faculties/business.php">Business</a></li>
+                  <li><a href="../faculties/politicalsci.php">Political Science</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">Categories ￬</a>
+              <ul class="hidden">
+                  <li><a href="../mainPages/projectsMain.php">Projects</a></li>
+                  <li><a href="#">Testimonies</a></li>
+                  <li><a href="../mainPages/conferencesMain.php">Conferences</a></li>
+                  <li><a href="../mainPages/newsMain.php">News</a></li>
+              </ul>
+          </li>
+          <li><a href="../youtube/youtubeVideos.php">Youtube Videos</a></li>
+      </ul>
+                  </div>
             </div>
         </div>
     
 
 <!-- the body starts here -->
 
-<section class="videoContainer">
-    <div class="videoTitle">
-        <h1> Recent Videos</h1>
+<section class="mainContainer">
+    <div class="videoContainer">
+        <div class="videoTitle">
+            <h1> Recent Videos</h1>
+        </div>
+        <div class="videoLeft">
+        <div class="newsContent">
+                            <div class="individualNews">
+                                <div class="individualImage">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EbVJi_oiARA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="individualTitle">
+                                   <h3> <a href="https://www.youtube.com/watch?v=EbVJi_oiARA&t=15s" class="videoT" target="_blank"> How to Configure a Virtual Switch on Packet Tracer</a></h3> 
+                                </div>
+                                <div class="individualAbstract"> 
+                                    <p> </p>
+                                    <p> Faculty: Software Engineering</p>
+                                    <p> Related to: Technology</p>
+                                </div>
+                            </div>
+                    </div>
+        </div>
+        <div class="videoRight">
+        <div class="newsContent">
+        <div class="individualNews">
+                                <div class="individualImage">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/opvI4lergGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="individualTitle">
+                                   <h3> <a href="https://www.youtube.com/watch?v=opvI4lergGI" class="videoT" target="_blank"> Creating a Basic Network Connection with Packet tracer</a></h3> 
+                                </div>
+                                <div class="individualAbstract"> 
+                                    <p> </p>
+                                    <p> Faculty: Software Engineering</p>
+                                    <p> Related to: Technology</p>
+                                </div>
+                            </div>
+
+                           
+
+                    </div>  
+                    <br><br>               
+        </div>
+
+        <div class="navIndex">
+                            <table class="tableIndex">
+                                <tr>
+                                <td>
+                                    <
+                                    </td>
+                                <?php $i=1; for ($x = 0; $x < 5; $x++ ){     ?>
+                                    <td> <a href="#" ><?php echo $i ?><?php ?> </td>
+                                    <?php $i=$i+1;}?>
+                                    <td>
+                                        >
+                                    </td>
+                                </tr>    
+                            </table>
     </div>
+    <br><br>
 </section>
 
 <!-- first container -->
@@ -66,47 +121,38 @@
 <!--footer -->
 <footer class="footerSite">
   <div class="footerContent">
-      <br>
+      <p></p>
       <div class="contentInfo">
-        <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
+    <p class="footerTags"><a href="#" class="footerLinks">About Us</a></p>
+    <p class="footerTags"><a href="#" class="footerLinks">Student Request Form</a></p>
+    <p class="footerTags"><a href="https://keiseruniversity.edu.ni/" class="footerLinks">Keiser University LAC Page</a></p>
+    <p class="footerTags"><a href="../admin/faculty.php" class="footerLinks">Faculty Login</a></p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
+    <p class="footerTags"><a href="https://www.youtube.com/channel/UCxT8MqsgtadIkKQaOo4D20Q" class="footerLinks">Youtube Channel<a></p>
+    <p class="footerTags">Facebook Page</p>
+    <p class="footerTags">Twitter Page</p>
+    <p class="footerTags">Instagram Page</p>
     </div>
 
     <div class="contentInfoR">
         <p></p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-    <p>Fill with contacts</p>
-
-    <p>Fill with contacts</p>
+    <p class="footerTags">Gasolinera UNO 2c. al Sur</p>
+    <p class="footerTags">San Marcos, Carazo, Nicaragua</p>
+    <p class="footerTags">Phone: (505) 2278-6911 – (505) 2535-2314</p>
+    <p class="footerTags">Toll Free: 1 (800) 969- 1685</p>
     </div>
 
   </div>
   
   <div class="copyrightContent"> 
-      <p style="text-align:center; color: #999; font-family: Roboto;"> All rights reserved <span style="color:#f9b418">Keiser University Latin American Campus</span></p>
+  <p style="text-align:center; color: #999; font-family: Roboto;"> All rights reserved <span style="color:#f9b418">Keiser University Latin American Campus</span></p>
   </div>
 </footer>
 

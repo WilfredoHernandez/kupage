@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/navbar.css">
 <link rel="stylesheet" href="../css/footer.css">
 <link rel="stylesheet" href="../css/faculties.css">
@@ -25,7 +26,7 @@
             <ul id="menu">
         <li><a href="../index.php">Home</a></li>
         <li>
-            <a href="#">Faculties ￬</a>
+            <a href="../mainPages/facultyMain.php">Faculties ￬</a>
             
             <ul class="hidden">
             <li><a href="software.php">Software</a></li>
@@ -37,15 +38,12 @@
         <li>
             <a href="#">Categories ￬</a>
             <ul class="hidden">
-                <li><a href="#">Research</a></li>
+            <li><a href="../mainPages/projectsMain.php">Projects</a></li>
                 <li><a href="#">Testimonies</a></li>
-                <li><a href="#">Presentations</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Conferencies</a></li>
-                
+                <li><a href="../mainPages/conferencesMain.php">Conferences</a></li>
+                <li><a href="../mainPages/newsMain.php">News</a></li>
             </ul>
         </li>
-        <li><a href="#">News</a></li>
         <li><a href="../youtube/youtubeVideos.php">Youtube Videos</a></li>
     </ul>
                 </div>
@@ -69,46 +67,61 @@
 <div class="mainContent" id="main">
 
     <aside class="contentF">
-        <img src="../images/example.jpg" width="80%px" height="100%" id="vertical" >
+        <div class="asideMenu">
+        <a href="../faculties/software.php"><div class="filterAside"></div> <p class="coverTitle-1"> News</p>
+            <img src="../images/asideimage1.jpg" class="asideMenuImage">
+        </a>
+        </div>
+        <div class="asideMenu">
+        <a href="../faculties/software.php"><div class="filterAside"></div> <p class="coverTitle-1"> Projects</p>
+            <img src="../images/asideimage2.jpg" class="asideMenuImage">
+        </a>
+        </div>
+        <div class="asideMenu">
+        <a href="../faculties/software.php"><div class="filterAside"></div> <p class="coverTitle-1"> Conferences</p>
+            <img src="../images/asideimage3.jpg" class="asideMenuImage">
+        </a>
+        </div>
+
     </aside>
     
 
 <div class="contentS">
     <div class="contentHeader">
-    <h3 class="title">News & Events</h3>
+    <h3 class="title">Recent Activities:</h3>
     </div>
 
     <div class="contentNotice">
     <div class="contentImage">
-        <img src="../images/example.jpg" width="100%" height="100%">
+        <img src="../images/notice1.jpeg" width="95%" height="100%" class="imgN">
     </div>
     <div class="contentTitle">
-        <h4> <a href="../notices&event/notice.php"> Notice & Event Title</a> </h4>
+        <h4> <a href="../mainPages/notice.php"> Software student has developed an incredible app called UBook  </a> </h4>
         <hr>
-        <p> Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident, Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident,Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident. </p>
+        <p class="mainAbstracts"> With college books getting more and more expensive, our brilliant student from KULAC has developed an application with the Name of Ubook. What is Ubook? This app tackles the on and off the problem of overprices book... </p>
     </div>
     </div>
 
     <div class="contentNotice">
     <div class="contentImage">
-        <img src="../images/example.jpg" width="100%" height="100%">
+        <img src="../images/notice.jpeg" width="95%" height="100%" class="imgN">
     </div>
 
     <div class="contentTitle">
-    <h4> <a href="#"> Notice & Event Title</a> </h4>
+    <h4> <a href="../mainPages/notice1.php"> Easy Tour Project Between Business and Software Engineering Students</a> </h4>
         <hr>
-        <p> Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident, Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident,Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident. </p>
+        <p class="mainAbstracts"> Have you ever traveled somewhere and got lost just by walking around a corner? Or Have you ever wanted to travel somewhere but is too expensive? Well, KULAC has developed an application with the name of “Easy Tour”...</p>
     </div>
     </div>
     <div class="contentNotice">
     <div class="contentImage">
-        <img src="../images/example.jpg" width="100%" height="100%">
+        <img src="../images/notice2.jpeg" width="95%" height="100%" class="imgN">
     </div>
 
     <div class="contentTitle">
-    <h4> <a href="#"> Notice & Event Title</a> </h4>
+    <h4> <a href="../mainPages/notice2.php"> G Tems Project Gaming Webpage project</a> </h4>
         <hr>
-        <p> Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident, Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident,Lorem ipsum dolor dummy text sit amet, Excepteur sint occaecat cupidatat non proident. </p>
+        <p class="mainAbstracts"> Good news for the Gaming Community! New devices and accessories from all brands and types, tired of your old gaming gear?! Well, we present to you Gtems! ,Students from KULAC have created a website and a mobile application where you can be in touch... </p>
     </div>
     </div>
     <br><br><br>
@@ -126,26 +139,26 @@
 
     <div class="contentInfo">
         <p></p>
-    <p>About Us</p>
-    <p>Student Reques Form</p>
-    <p><a href="index.php" class="footerLinks">Keiser University LAC Page</a></p>
-    <p><a href="#" class="footerLinks">Faculty Login</a></p>
+    <p class="footerTags"><a href="#" class="footerLinks">About Us</a></p>
+    <p class="footerTags"><a href="#" class="footerLinks">Student Request Form</a></p>
+    <p class="footerTags"><a href="https://keiseruniversity.edu.ni/" class="footerLinks">Keiser University LAC Page</a></p>
+    <p class="footerTags"><a href="../admin/faculty.php" class="footerLinks">Faculty Login</a></p>
     </div>
 
     <div class="contentInfo">
         <p></p>
-    <p>Youtube Channel</p>
-    <p>Facebook Page</p>
-    <p>Twitter Page</p>
-    <p>Instagram Page</p>
+    <p class="footerTags"><a href="https://www.youtube.com/channel/UCxT8MqsgtadIkKQaOo4D20Q" class="footerLinks">Youtube Channel<a></p>
+    <p class="footerTags">Facebook Page</p>
+    <p class="footerTags">Twitter Page</p>
+    <p class="footerTags">Instagram Page</p>
     </div>
 
     <div class="contentInfoR">
         <p></p>
-    <p>Gasolinera UNO 2c. al Sur</p>
-    <p>San Marcos, Carazo, Nicaragua</p>
-    <p>Phone: (505) 2278-6911 – (505) 2535-2314</p>
-    <p>Toll Free: 1 (800) 969- 1685</p>
+    <p class="footerTags">Gasolinera UNO 2c. al Sur</p>
+    <p class="footerTags">San Marcos, Carazo, Nicaragua</p>
+    <p class="footerTags">Phone: (505) 2278-6911 – (505) 2535-2314</p>
+    <p class="footerTags">Toll Free: 1 (800) 969- 1685</p>
     </div>
 
   </div>

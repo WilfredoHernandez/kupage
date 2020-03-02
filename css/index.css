@@ -1,10 +1,9 @@
 body{
-    font-family: Roboto;
     width: 100%;
     margin: 0;
 }
 
-.body .covers{
+body .covers{
   left:0%;
   height: 950px;
   width: 100%;
@@ -42,12 +41,14 @@ body{
   font-weight: 700;
   margin: 0 0 2px;
   color: #092760;
-  font-family: Roboto Slab;
+  font-family: 'PT Serif' ;
   }
 
   .mainContent p{
-    color: #666;
-    font: Roboto;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+    font-family: 'Crimson Text';
+    text-align: justify;
   }
 
   .mainContent{
@@ -64,7 +65,6 @@ body{
   }
 
   .secondaryContent{
-
     width: 70%;
     padding-left: 200px;
   }
@@ -73,4 +73,3 @@ body{
     color: white;
     text-decoration: none;
   }
-
