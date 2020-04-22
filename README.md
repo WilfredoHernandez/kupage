@@ -13,19 +13,19 @@ This repository contains just the FE part. It <b>DOES NOT</b> contain any BE fil
  5.javascript  
  
  # Previews:
- <p align="center">Home Page</p>  
+ <b><p align="center">Home Page</p></b>  
  
 ![Screenshot](previews/preview1.png)  
 
-<p align="center"> Faculty Example Page</p>  
+<b><p align="center"> Faculty Example Page</p>  </b>
 
 ![Screenshot](previews/preview2.png)
 
-<p align="center">Youtube Videos Page</p>   
+<b><p align="center">Youtube Videos Page</p></b>   
 
 ![Screenshot](previews/preview3.png)
 
-<p align="center">Project Presentation Page</p>   
+<b><p align="center">Project Presentation Page</p></b>   
 
 ![Screenshot](previews/preview4.png)  
 
